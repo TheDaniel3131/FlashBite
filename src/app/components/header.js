@@ -11,7 +11,7 @@ export default function Header(){
                     <Link href={''}>About Us</Link>
                     <Link href={''}>Contact Us</Link>
                     <Link href={''}>FAQ</Link>  
-                    <Link href={''} className=" bg-slate-800 rounded-full text-white px-8 py-2">Login</Link>
+                    <Link href={''} className=" bg-rose-900 rounded-full text-white px-8 py-2">Login</Link>
                 </nav>
             </header>
         </>
