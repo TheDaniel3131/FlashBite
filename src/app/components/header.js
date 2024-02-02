@@ -4,8 +4,8 @@ export default function Header(){
     return(
         <>  
             <header className="flex items-center justify-between">    
-                <Link className="text-primary text-2xl font-bold" href={''}>Flash<span className=" text-yellow-400">Bite</span></Link>
-                <nav className="flex items-center gap-5 text-rose-200 font-semibold">
+                <Link className="text-primary text-4xl font-bold" href={''}>Flash<span className=" text-rose-600">Bite</span></Link>
+                <nav className="flex items-center gap-10 text-rose-300 font-bold">
                     <Link href={''}>Home</Link>
                     <Link href={''}>Foods</Link>
                     <Link href={''}>About Us</Link>
