@@ -2,9 +2,9 @@ import Link from "next/link"
 
 export default function Header(){
     return(
-        <>
-            <header>
-                <a href="/">FlashBite</a>
+        <>  
+            <header>    
+                <Link className="text-rose-100 text-2xl font-bold" href={''}>FlashBite</Link>
                 <nav>
                     <Link href={''}>Home</Link>
                     <Link href={''}>Foods</Link>
