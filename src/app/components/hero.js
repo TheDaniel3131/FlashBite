@@ -13,8 +13,8 @@ export default function Hero(){
                             <button className="flex gap-2 bg-orange-500 font-bold text-white uppercase items-center px-6 py-3 rounded-full">Order Food <Forward /></button>
                         </div>
                 </div>
+                <div className="relative gap-3 mt-5 py-5">
 
-                <div className="relative">
                     <Image src={'/welcome.png'} layout={'fill'} objectFit={'contain'} alt={'Welcome'} />
                 </div>
             </section>
