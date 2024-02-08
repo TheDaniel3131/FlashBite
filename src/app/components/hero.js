@@ -5,7 +5,7 @@ export default function Hero(){
     return(
         <>
             <section className="grid grid-cols-2 mt-12">
-                <div className="py-4">
+                <div className="py-12">
                     <h1 className="mt-5 py-5 text-5xl font-semibold">Welcome to FlashBite, No. 1 Food App In Malaysia.</h1>  
                     <p className="py-5 tracking-widest text-lg text-gray-500">Order Now To Get Your Foods Fast!</p>
                         <div className="flex gap-4">
