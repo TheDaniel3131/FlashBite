@@ -4,3 +4,6 @@
 @tailwind components;
 @tailwind utilities;
     
+body{
+    background: #ffffff;
+}
