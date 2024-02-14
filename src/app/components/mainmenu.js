@@ -3,13 +3,16 @@ import Image from 'next/image'
 
 export default function MainMenu() {
   return (
-    <section className="">
-        <div>
-            <Image src={'/menu.png'} layout={'fill'} objectFit={'contain'} alt={'Menu'} />
+    <section className="relative mt-10 py-10">
+        <div className="absolute left-0 right-0">
+            <div className="h-80 w-80 absolute left-20 top-0"> 
+                <Image src={'/friedchicken.png'} layout={'fill'} objectFit={'contain'} alt={'Fried Chicken'} className="rounded-full"/>
+            </div>
         </div>
-        <div className="text-center">
-            <h3 className="uppercase text-gray-500 font-semibold">Check Out</h3>      
-            <h3 className="text-primary font-bold text-4xl italic">Menu</h3>
+
+        <div className="text-right">
+            <h3 className="uppercase text-gray-500 font-semibold">TRY OUT OUR LATEST MENU!</h3>      
+            <h3 className="text-primary font-bold text-4xl italic">FlashBite&rsquo;s Crispy Fried Chicken</h3>
         </div>
     </section>
 
