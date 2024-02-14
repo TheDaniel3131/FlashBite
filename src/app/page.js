@@ -1,5 +1,6 @@
 import Header from "./components/header"
 import Hero from "./components/hero"
+import MainMenu from "./components/mainmenu"
 import Link from "next/link"
 
 export default function Home(){
@@ -9,6 +10,7 @@ export default function Home(){
     <>  
       <Header />
       <Hero />
+      <MainMenu />
     </>
   )
 }
