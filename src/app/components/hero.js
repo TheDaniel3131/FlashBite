@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import Forward from "./icons/Forward";
 import { Zap } from "react-feather";
+import { motion } from "framer-motion";
 
 export default function Hero(){
     return(
@@ -18,7 +21,13 @@ export default function Hero(){
                         </div>
                 </div>
                 <div className="relative gap-3 mt-5 py-5">
-                    <Image src={'/welcome.png'} layout={'fill'} objectFit={'contain'} alt={'Welcome'} />
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <Image src={'/welcome.png'} layout={'fill'} objectFit={'contain'} alt={'Welcome'} />
+                    </motion.div>
                 </div>
             </section>
         </>
