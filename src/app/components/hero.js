@@ -12,7 +12,7 @@ export default function Hero(){
                 <div className="py-10">
                     <h1 className="mt-5 py-5 text-6xl font-bold leading-none">
                         Welcome to <span className="flex items-center text-yellow-500">FlashBite <Zap size={48} className="ml-2" /></span>
-                        No. 1 Food App In Malaysia.
+                        No.1&nbsp;Food App In Malaysia.
                     </h1>
                     <p className="py-5 mb-5 tracking-widest text-xl text-gray-500">Order Now To Get Your Foods Fast!</p>
                         <div className="flex gap-4 text-sm mr-auto">
@@ -20,7 +20,7 @@ export default function Hero(){
                             <button className="flex gap-2 bg-orange-500 font-bold text-white uppercase items-center px-6 py-3 rounded-full text-xl">Order Food <Forward /></button>
                         </div>
                 </div>
-                <div className="relative gap-3 mt-5 py-5">
+                <div className="relative gap-4 mt-5 py-6">
                   <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
