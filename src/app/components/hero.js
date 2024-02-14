@@ -18,7 +18,6 @@ export default function Hero(){
                         </div>
                 </div>
                 <div className="relative gap-3 mt-5 py-5">
-
                     <Image src={'/welcome.png'} layout={'fill'} objectFit={'contain'} alt={'Welcome'} />
                 </div>
             </section>
