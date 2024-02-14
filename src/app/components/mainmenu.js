@@ -12,7 +12,7 @@ export default function MainMenu() {
 
         <div className="text-right">
             <h3 className="uppercase text-gray-500 font-semibold">TRY OUT OUR LATEST MENU!</h3>      
-            <h3 className="text-primary font-bold text-4xl italic">FlashBite&rsquo;s Crispy Fried Chicken</h3>
+            <h3 className="text-orange-500 font-bold text-4xl italic">FlashBite&rsquo;s Crispy Fried Chicken</h3>
         </div>
     </section>
 
