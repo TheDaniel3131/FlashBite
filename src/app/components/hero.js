@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Forward from "./icons/Forward";
 import { Zap } from "react-feather";
-import { motion } from "framer-motion";
+    import { motion } from "framer-motion";
 
 export default function Hero(){
     return(
