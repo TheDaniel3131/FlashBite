@@ -5,7 +5,7 @@ export default function MainMenu() {
   return (
     <section className="relative mt-10 py-10">
         <div className="absolute left-0 right-0">
-            <div className="h-80 w-80 absolute left-20 top-0"> 
+            <div className="h-80 w-80 absolute left-0 top-0"> 
                 <Image src={'/friedchicken.png'} layout={'fill'} objectFit={'contain'} alt={'Fried Chicken'} className="rounded-full"/>
             </div>
         </div>
