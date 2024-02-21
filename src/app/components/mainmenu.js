@@ -16,7 +16,7 @@ export default function MainMenu() {
         </div>
         
 
-      <div className="text-center mb-20 mt-60">
+      <div className="text-center mb-20 mt-80">
         <h3 className="uppercase text-gray-500 font-semibold leading-4">Check out</h3>
         <h2 className="text-primary font-bold text-4xl italic">MORE MENU</h2>
       </div>
