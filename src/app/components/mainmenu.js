@@ -23,12 +23,13 @@ export default function MainMenu() {
 
       <div className="grid grid-cols-3 gap-4">
         {/* Example grid item */}
-        <div className="bg-gray-300 p-4 rounded-lg text-center">
-          <Image src="" alt="Food" width={100} height={100}/>
-          <h4 className=""></h4>
+        <div className="bg-gray-300 p-4 rounded-lg text-center items-center justify-center">
+          <Image src={'/nasilemak.jpg'} alt="Food" width={250} height={250}/>
+          <h4 className="font-semibold my-3">Tradisional Nasi Lemak</h4>
           <p className="text-gray-500 text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
+            A traditional Malay fragrant rice dish cooked in coconut milk and pandan leaf.
           </p>
+          <button className="bg-primary text-white rounded-full px-4 py-2">Order for RM12.50</button>
         </div>
       </div>
 
