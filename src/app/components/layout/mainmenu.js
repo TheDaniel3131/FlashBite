@@ -22,7 +22,6 @@ export default function MainMenu() {
       </div>
 
       <div className="grid grid-cols-3 gap-4">
-        {/* Example grid item */}
         <div className="bg-gray-300 p-4 rounded-lg text-center items-center justify-center">
           <Image src={'/nasilemak.jpg'} alt="Food" width={350} height={350}/>
           <h4 className="font-bold text-2xl my-5 mb-5">Tradisional Nasi Lemak</h4>
