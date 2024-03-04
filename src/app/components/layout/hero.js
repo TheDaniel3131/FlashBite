@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Forward from "./icons/Forward";
+import Forward from "../icons/Forward";
 import { Zap } from "react-feather";
 import { motion } from "framer-motion";
 
