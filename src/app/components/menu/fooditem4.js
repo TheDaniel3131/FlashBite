@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function FoodMenu(){
+export default function FoodItem4(){
     return( 
         <div className="p-6 rounded-lg text-center items-center justify-center hover:bg-rose-200">
           <Image src={'/nasilemak.jpg'} alt="Food" width={350} height={350}/>
@@ -12,3 +12,4 @@ export default function FoodMenu(){
         </div>   
     )
 }
+

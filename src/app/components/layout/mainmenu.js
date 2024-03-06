@@ -1,6 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import FoodMenu from "../menu/foodmenu";
+import FoodItem1 from "../menu/fooditem1";
+import FoodItem2 from "../menu/fooditem1";
+import FoodItem3 from "../menu/fooditem1";
+import FoodItem4 from "../menu/fooditem1";
+import FoodItem5 from "../menu/fooditem1";
+import FoodItem6 from "../menu/fooditem1";
 
 export default function MainMenu() {
   return (
@@ -23,12 +28,13 @@ export default function MainMenu() {
       </div>
 
       <div className="grid grid-cols-3 gap-4">
-        <FoodMenu />
-        <FoodMenu />
-        <FoodMenu />
-        <FoodMenu />
-        <FoodMenu />
-        <FoodMenu />
+        <FoodItem1 />
+        <FoodItem2 />
+        <FoodItem3 />
+        <FoodItem4 />
+        <FoodItem5 />
+        <FoodItem6 />
+
       </div>
 
       {/* Image */}
