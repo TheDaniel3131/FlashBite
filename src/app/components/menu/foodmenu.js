@@ -8,7 +8,7 @@ export default function FoodMenu(){
           <p className="text-gray-500 text-sm mb-5">
             A traditional Malay fragrant rice dish cooked in coconut milk and pandan leaf.
           </p>
-          <button className="bg-primary text-white rounded-full px-8 py-2">Order for RM12.50</button>
+          <button className="bg-primary font-bold shadow-xl text-white rounded-full px-8 py-2">Order for RM12.50</button>
         </div>   
     )
 }
