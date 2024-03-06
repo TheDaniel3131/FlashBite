@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import FoodMenu from "../menu/FoodMenu"
+import FoodMenu from "../menu/foodmenu";
 
 export default function MainMenu() {
   return (
@@ -23,6 +23,9 @@ export default function MainMenu() {
       </div>
 
       <div className="grid grid-cols-3 gap-4">
+        <FoodMenu />
+        <FoodMenu />
+        <FoodMenu />
         <FoodMenu />
         <FoodMenu />
         <FoodMenu />
