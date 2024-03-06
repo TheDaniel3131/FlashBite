@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import FoodItem1 from "../menu/fooditem1";
-import FoodItem2 from "../menu/fooditem1";
-import FoodItem3 from "../menu/fooditem1";
-import FoodItem4 from "../menu/fooditem1";
-import FoodItem5 from "../menu/fooditem1";
-import FoodItem6 from "../menu/fooditem1";
+import FoodItem2 from "../menu/fooditem2";
+import FoodItem3 from "../menu/fooditem3";
+import FoodItem4 from "../menu/fooditem4";
+import FoodItem5 from "../menu/fooditem5";
+import FoodItem6 from "../menu/fooditem6";
 
 export default function MainMenu() {
   return (
