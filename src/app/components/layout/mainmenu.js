@@ -34,7 +34,6 @@ export default function MainMenu() {
         <FoodItem4 />
         <FoodItem5 />
         <FoodItem6 />
-
       </div>
 
       {/* Image */}
