@@ -8,7 +8,7 @@ export default function FoodItem2(){
           <p className="text-gray-500 text-sm mb-5">
             A popular noodle dish from Malaysia, made from flat rice noodles stir-fried over high heat with light and dark soy sauce, chilli, prawns, cockles, egg, bean sprouts, and Chinese chives.
           </p>
-          <button className="bg-primary font-bold shadow-xl text-white rounded-full px-8 py-2">Order for RM12.50</button>
+          <button className="bg-primary font-bold shadow-xl text-white rounded-full px-8 py-2">Order for RM9.50</button>
         </div>   
     )
 }
