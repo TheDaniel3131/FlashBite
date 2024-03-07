@@ -24,7 +24,7 @@ export default function MainMenu() {
 
       <div className="text-center mb-10 mt-72">
         <h3 className="uppercase text-gray-500 font-semibold leading-4">Check out</h3>
-        <h2 className="text-primary font-bold text-4xl italic">MORE MENU</h2>
+        <h2 className="text-primary font-bold text-4xl italic">MORE FLASHBITES</h2>
       </div>
 
       <div className="grid grid-cols-3 gap-4">
