@@ -9,7 +9,7 @@ export default function FoodItem3(){
             Roti canai is a type of Indian-influenced flatbread found in Malaysia, Brunei, Indonesia and Singapore.
             It is often sold in Mamak stalls in Malaysia; also in Malay, Minangkabau and Aceh restaurants in Indonesia.
           </p>
-          <button className="bg-primary font-bold shadow-xl text-white rounded-full px-8 py-2">Order for RM12.50</button>
+          <button className="bg-primary font-bold shadow-xl text-white rounded-full px-8 py-2">Order for RM8.00</button>
         </div>   
     )
 }
