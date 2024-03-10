@@ -1,14 +1,4 @@
-// @ts-check
-
-/**
- * @type {import('next').NextConfig}
- */
-
-const nextConfig = {
-    compress: false,
-    optimization: {
-        minimize: false,
-    },
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
 export default nextConfig;

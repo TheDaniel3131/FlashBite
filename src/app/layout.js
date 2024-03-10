@@ -1,7 +1,12 @@
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const dmsans = DM_Sans({ subsets: ["latin"] });
+const dmsans = DM_Sans({ 
+  subsets: ["latin"],
+  display: "swap",
+  weight: "variable"
+  }
+);
 
 export const metadata = {
   title: "Create Next App",
