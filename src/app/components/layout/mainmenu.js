@@ -6,6 +6,7 @@ import FoodItem3 from "../menu/fooditem3";
 import FoodItem4 from "../menu/fooditem4";
 import FoodItem5 from "../menu/fooditem5";
 import FoodItem6 from "../menu/fooditem6";
+import NewSectionHeaders from './newSectionHeaders';
 
 export default function MainMenu() {
   return (
@@ -23,8 +24,7 @@ export default function MainMenu() {
         
 
       <div className="text-center mb-10 mt-72">
-        <h3 className="uppercase text-gray-500 font-semibold leading-4">Check out</h3>
-        <h2 className="text-primary font-bold text-4xl italic">MORE FLASHBITES</h2>
+        <NewSectionHeaders mainHeader={'Check Out'} subHeader={'MORE FLASHBITES'} />
       </div>
 
       <div className="grid grid-cols-3 gap-4">
