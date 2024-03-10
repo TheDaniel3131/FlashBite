@@ -2,7 +2,8 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 
 const dmsans = DM_Sans({ 
-  subsets: ["latin"]
+  subsets: ["latin"],
+  variable: "--dmsans-font"
 });
 
 export const metadata = {
@@ -12,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={dmsans.className}>
+    <html lang="en" className={`${dmsans.variable}`}>
       <body>
         <main className="max-w-6xl mx-auto p-4">
           {children}
