@@ -1,8 +1,4 @@
-const nextConfig = {
-    compress: false,
-    optimization: {
-        minimize: false,
-    },
-};
-
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+module.exports = {
+  swcMinify: false,
+}
