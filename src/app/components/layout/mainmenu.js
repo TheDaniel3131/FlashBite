@@ -14,16 +14,17 @@ export default function MainMenu() {
         <div className="text-right relative">
             <h3 className="uppercase text-gray-500 text-xl font-semibold leading-loose mt-10 mr-5">TRY OUT OUR LATEST MENU!</h3>      
             <h3 className="text-orange-500 font-bold text-4xl italic mr-5">FlashBite&rsquo;s Crispy Fried Chicken</h3>
-            <p className="absolute right-0 top-24 text-gray-700 mt-4 mr-5 w-2/3 h-40 leading-snug">
+            <p className="absolute right-0 top-24 text-gray-700 mt-4 mb-20 mr-5 w-2/3 h-40 leading-snug">
                 Deliciously crispy and flavorful fried chicken that will leave you wanting more. 
                 Made from locally sourced farm-fresh chicken, our dish is a perfect blend of 
                 traditional flavors and modern cooking techniques. Experience the taste of 
                 quality ingredients and indulge in the ultimate comfort food.
             </p>
+            <button className="relative px-10 py-2 text-2xl font-bold uppercase bg-orange-200 text-white rounded-md mt-32 mr-5">Try It Out!</button> 
         </div>
         
 
-      <div className="text-center mb-10 mt-72">
+      <div className="text-center mb-10 mt-36">
         <NewSectionHeaders mainHeader={'Check Out'} subHeader={'MORE FLASHBITES'} />
       </div>
 
