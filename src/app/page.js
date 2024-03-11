@@ -19,7 +19,7 @@ export default function Home(){
             <p className="mb-6 text-justify"> 
               FlashBite is a Malaysian fast food ordering application that revolutionizes the way people order and enjoy their favorite meals. With a user-friendly interface and a wide range of delicious options, FlashBites makes it convenient for customers to browse through menus, customize their orders, and have their meals delivered right to their doorstep.
             </p>
-            <Image src="/welcome.png" width={350} height={350} alt="Flashbite Story" className="mt-10" />
+            {/* <Image src="/welcome.png" width={350} height={350} alt="Flashbite Story" className="mt-10" /> */}
             <p className="mb-6 text-justify">
               Whether you&apos;re craving traditional Malaysian dishes, international cuisines, or even healthy alternatives, FlashBites has got you covered. Our extensive network of partner restaurants ensures that you have access to a diverse selection of food options, catering to all tastes and dietary preferences.
             </p>
