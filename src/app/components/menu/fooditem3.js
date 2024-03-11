@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function FoodItem3(){
     return( 
         <div className="p-6 rounded-lg text-center items-center justify-center hover:bg-rose-200">
-          <Image src={'/roticanai.jpg'} alt="Food" width={305} height={305} />
+          <Image src={'/roticanai.jpg'} alt="Food" width={300} height={300} />
           <h4 className="font-bold text-2xl my-5 mb-5">Roti Canai</h4>
           <p className="text-gray-500 text-sm mb-5">
             Roti canai is an Indian flatbread found in Malaysia, Brunei, Indonesia and Singapore.
