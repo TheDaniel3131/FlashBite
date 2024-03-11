@@ -43,7 +43,7 @@ export default function Home(){
           </p>
         </div>
       </section>
-      <section className="text-center my-10">
+      <section className="text-center my-12">
         <NewSectionHeaders mainHeader={'Contact Us'} subHeader={'We Welcome Any Inquiries!'} />
         <div className="mt-8">
           <a className="text-2xl underline text-slate-500" href="+60 10-848 3602">
