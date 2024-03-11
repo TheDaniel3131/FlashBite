@@ -3,7 +3,8 @@ import "./globals.css";
 
 const dmsans = DM_Sans({ 
   subsets: ["latin"],
-  variable: "--dmsans-font"
+  variable: "--dmsans-font",
+  weights: ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
 });
 
 export const metadata = {
