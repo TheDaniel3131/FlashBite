@@ -34,11 +34,25 @@ export default function Home(){
           </div>
         </div>
       </section>
-      <section className="my-8">
-
+      <section className="flex flex-col text-center items-center my-8">
+        <NewSectionHeaders mainHeader={'Our Team'} subHeader={'Meet the People Behind FlashBites'} />
+        <div className="flex p-6 gap-16 items-center text-right text-xl">
+          <Image src="/about_us.png" width={350} height={350} alt="Flashbite Story" className="text-center py-2 mb-5" />
+          <p className="mb-6 w-[550px]  ">
+            At FlashBites, we are proud to have a team of dedicated and passionate individuals who are committed to providing the best possible experience for our customers. Our team is made up of talented professionals from various backgrounds, each bringing their unique skills and expertise to the table.
+          </p>
+        </div>
       </section>
-      <footer className="">
-
+      <section className="text-center my-10">
+        <NewSectionHeaders mainHeader={'Contact Us'} subHeader={'We Welcome Any Inquiries!'} />
+        <div className="mt-8">
+          <a className="text-2xl underline text-slate-500" href="+60 10-848 3602">
+            +60 10-848 3602 (WhatsApp)
+          </a>
+        </div>
+      </section>
+      <footer className="border-t p-10 text-center text-slate-500">
+      
       </footer>
     </>
   );
