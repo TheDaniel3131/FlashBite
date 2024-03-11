@@ -8,7 +8,7 @@ export default function Header(){
                 <Link className="text-primary text-5xl font-bold" href={''}>
                     Flash<span className="text-rose-600">Bite</span>
                 </Link>
-                <nav className="flex items-center gap-12 text-rose-300 text-xl font-bold justify-between">
+                <nav className="flex items-center gap-12 text-rose-400 text-xl font-semibold tracking-wider justify-between">
                     <Link href={''}>Home</Link>
                     <Link href={''}>Foods</Link>
                     <Link href={''}>About Us</Link>
