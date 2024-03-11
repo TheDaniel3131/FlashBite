@@ -14,7 +14,7 @@ export default function Header(){
                     <Link href={''}>About Us</Link>
                     <Link href={''}>Contact Us</Link>
                     <Link href={''}>FAQ</Link>
-                    <Link href={''} className="flex gap-2 text-2xl bg-rose-900 rounded-full text-white px-10 py-2 mr-auto">
+                    <Link href={'/login'} className="flex gap-2 text-2xl bg-rose-900 rounded-full text-white px-10 py-2 mr-auto">
                         Login<LogIn size={36} />
                     </Link>
                 </nav>
