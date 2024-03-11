@@ -19,7 +19,7 @@ export default function MainMenu() {
                 Made from locally sourced farm-fresh chicken, our dish is a perfect blend of 
                 traditional flavors and modern cooking techniques. Experience the taste of 
                 quality ingredients and indulge in the ultimate comfort food.
-            </p>
+            </p>  
             <button className="relative px-10 py-2 text-2xl font-bold uppercase bg-orange-200 text-white rounded-md mt-32 mr-5">Try It Out!</button> 
         </div>
         
