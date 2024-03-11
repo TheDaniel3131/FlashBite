@@ -14,6 +14,27 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${dmsans.variable}`}>
+      <head>
+        {/* Favicon.ico. Add favicon in any sizes */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+
+        {/* For icon, Support any image types/formats */}
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/<generated>"
+          sizes="<generated>"
+        />
+
+        {/*Apple icon for the apple users */}
+      <link
+        rel="apple-touch-icon"
+        href="/apple-icon?<generated>"
+        type="image/<generated>"
+        sizes="<generated>"
+      />
+
+      </head>
       <body>
         <main className="max-w-6xl mx-auto p-4">
           {children}
