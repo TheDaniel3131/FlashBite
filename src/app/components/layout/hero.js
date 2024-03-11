@@ -3,7 +3,9 @@
 import Image from "next/image";
 import Forward from "../icons/Forward";
 import { Zap } from "react-feather";
+import { Pizza } from 'lucide-react';
 import { motion } from "framer-motion";
+
 
 export default function Hero(){
     return(
@@ -16,8 +18,8 @@ export default function Hero(){
                     </h1>
                     <p className="py-5 mb-5 tracking-widest text-xl text-gray-500">Order Now To Get Your Foods Fast!</p>
                         <div className="flex gap-4 text-sm mr-auto">
-                            <button className="flex gap-2 bg-orange-300 px-6 py-3 text-white items-center font-bold rounded-full text-xl align-middle">Learn More <Forward /></button>
-                            <button className="flex gap-2 bg-orange-600 text-white items-center font-bold px-10 py-3 rounded-full text-xl align-middle">Order Food <Forward /></button>
+                            <button className="flex gap-2 bg-orange-300 px-6 py-3 text-white items-center font-bold rounded-full text-xl    ">Learn More <Forward /></button>
+                            <button className="flex gap-2 bg-orange-600 text-white items-center font-bold px-10 py-3 rounded-full text-xl">Order NOW <Pizza /></button>
                         </div>
                 </div>
                 <div className="relative gap-4 mt-5 py-6">
