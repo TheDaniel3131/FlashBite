@@ -11,7 +11,7 @@ export default function Home(){
       <Header />
       <Hero />
       <MainMenu />
-      <section className="py-20 text-justify">
+      <section className="py-20 items-center text-center">
         <NewSectionHeaders mainHeader={'Our Story'} subHeader={'The Origin of FlashBites'} />
         <div className="flex flex-col flex-wrap gap-5 justify-between">
           <div className="inline-block text-slate-600 text-xl mt-10">
@@ -34,8 +34,8 @@ export default function Home(){
           </div>
         </div>
       </section>
-      <section className="">
-        
+      <section className="my-8">
+
       </section>
       <footer className="">
 
