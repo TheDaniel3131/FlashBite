@@ -6,7 +6,6 @@ import Image from "next/image";
 
 export default function Home(){
   // React Fragment <></> is used to wrap multiple elements without adding an extra node to the DOM.
-
   return (
     <>
       <Header />
@@ -35,6 +34,12 @@ export default function Home(){
           </div>
         </div>
       </section>
+      <section className="">
+        
+      </section>
+      <footer className="">
+
+      </footer>
     </>
   );
 }
