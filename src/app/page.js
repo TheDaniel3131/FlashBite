@@ -1,7 +1,7 @@
-import Header from "./components/layout/header"
-import Hero from "./components/layout/hero"
-import MainMenu from "./components/layout/mainmenu"
-import NewSectionHeaders from "./components/layout/newSectionHeaders"
+import Header from "@/components/layout/header"
+import Hero from "@/components/layout/hero"
+import MainMenu from "@/components/layout/mainmenu"
+import NewSectionHeaders from "@/components/layout/newSectionHeaders"
 import Image from "next/image";
 import { Phone } from 'lucide-react';
 

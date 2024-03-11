@@ -1,3 +1,60 @@
 set the exact same font display and weight using variable to tailwind.config.js: Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K
 https://dev.to/sdorra/nextjs-13-fonts-with-tailwind-2l4l
 
+ok just realize that there is huge difference between @/ and ./
+
+import Header from "@/components/layout/header"
+
+vs
+
+import Header from "./components/layout/header"
+
+
+
+
+here is the explanation from copilot:
+
+Certainly! It looks like you have selected a code snippet that demonstrates the difference between using `@/` and `./` in import statements in JavaScript.
+
+In JavaScript, the `@/` and `./` are used to specify the path of the module or file you want to import. Let's break down the difference between them:
+
+1. `@/`:
+   - The `@/` is often used as a shorthand alias for the project's root directory.
+   - It is commonly used in projects that utilize a module bundler like Webpack or Vue CLI.
+   - The exact meaning of `@/` can vary depending on the project's configuration, but it typically refers to the `src` directory or the root of the project.
+   - When you use `@/` in an import statement, the module bundler will resolve the path based on the project's configuration.
+
+2. `./`:
+   - The `./` is used to specify a relative path to the current file's location.
+   - It is commonly used to import modules or files that are located in the same directory or a subdirectory of the current file.
+   - When you use `./` in an import statement, the path is resolved relative to the current file's location.
+
+Here's an example to illustrate the difference:
+
+Suppose you have the following file structure:
+```
+- src
+  - components
+    - layout
+      - header.js
+  - pages
+    - home.js
+```
+
+If you are in the `home.js` file and want to import the `header.js` file, you can use either `@/` or `./`:
+
+Using `@/`:
+```javascript
+import Header from "@/components/layout/header";
+```
+
+Using `./`:
+```javascript
+import Header from "./components/layout/header";
+```
+
+Both of these import statements will import the `header.js` file correctly. However, the exact meaning of `@/` and how it is configured may vary depending on your project setup.
+
+It's important to note that the usage of `@/` is not a standard JavaScript feature, but rather a convention used in certain frameworks or project setups. If you are not using a specific project configuration that supports `@/`, it may not work as expected.
+
+I hope this clarifies the difference between `@/` and `./` in import statements! Let me know if you have any further questions.
