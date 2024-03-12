@@ -8,13 +8,19 @@ body{
     background: #ffffff;
 }
 
-input[type="email"],
+/* 
+section.hero{
+    @apply grid;
+    grid-template-columns: .4fr .6fr;    
+} */
+
+/* input[type="email"],
 input[type="password"],
 input[type="text"]{
     @apply block rounded-sm;
     @apply block border p-2 border-slate-400 bg-slate-200;
 
-}
+} */
 
 button{
     @apply block w-full text-slate-500;
