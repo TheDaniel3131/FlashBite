@@ -23,6 +23,13 @@ input[type="text"]{
 } */
 
 /* button{
-    @apply block w-full text-slate-500;
+    @apply block w-full text-slate-500 font-semibold;
+    @apply border border-gray-700 rounded-xl px-6 py-2;
 } */
+
+/* 
+button[type="submit"], .submit{
+    @apply border-0 bg-primary text-white;
+}
+*/
 
