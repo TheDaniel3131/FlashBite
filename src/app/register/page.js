@@ -1,6 +1,10 @@
 import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Register(){
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
     return(
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <div className="flex flex-col mb-10">
@@ -9,7 +13,9 @@ export default function Register(){
             <form className="flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full mx-auto max-w-xl">
                 <div className="flex items-center mb-6">
                     <h1 className="font-normal tracking-wider text-lg">Email: &nbsp;</h1>
-                    <input type="email" placeholder="Enter Your Email Address" className="px-10 py-2"/>
+                    {/* e stands for event */}
+                    <input type="email" placeholder="Enter Your Email Address" value={email} 
+                    onChange={e=> setEmail(e.target.value)} className="px-10 py-2"/>
                 </div>
                 <div className="flex items-center mb-10">
                     <h1 className="font-normal tracking-wider text-lg">Password: &nbsp;</h1>
