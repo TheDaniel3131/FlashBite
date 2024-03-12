@@ -6,6 +6,8 @@ React
 - Allows developers to create reusable UI components.
 
 Next.js - static site generation 
-Tailwind CSS - for styling
+Tailwind CSS - for 
+
 NextAuth.js - for user authorization and authentication
+
 MongoDB - No SQL Database

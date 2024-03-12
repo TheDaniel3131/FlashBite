@@ -62,3 +62,7 @@ I hope this clarifies the difference between `@/` and `./` in import statements!
 
 
 https://www.stickpng.com/ for more logo images in png
+
+
+
+i love nextauth js: https://next-auth.js.org/configuration/initialization#api-routes-pages
