@@ -1,5 +1,7 @@
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
 
 const dmsans = DM_Sans({ 
   subsets: ["latin"],
@@ -38,7 +40,9 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <main className="max-w-6xl mx-auto p-4">
+          <Header />
           {children}
+          <Footer />
         </main>
       </body>
     </html>
