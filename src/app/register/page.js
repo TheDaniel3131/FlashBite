@@ -3,8 +3,8 @@ export default function Register(){
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <div className="flex flex-col mb-10">
                 <h1 className="font-bold items-center text-center text-slate-800 text-4xl">Member Registration</h1>
-            </div>
-            <form className="flex flex-col items-left bg-slate-100 p-20 rounded-3xl">
+            </div>  
+            <form className="flex flex-col items-left bg-slate-100 p-20 rounded-3x w-full mx-auto max-w-xl">
                 <div className="flex items-center mb-5">
                     <h1 className="font-normal tracking-wider text-lg">Email: &nbsp;</h1>
                     <input type="email" placeholder="Enter Your Email Address" className="px-4 py-2"/>
