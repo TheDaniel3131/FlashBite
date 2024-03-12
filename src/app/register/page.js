@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Register(){
     return(
         <section className="flex flex-col items-center justify-between mt-5 py-10">
@@ -17,7 +19,10 @@ export default function Register(){
                 <div className="text-center text-gray-500 text-sm my-4">
                     Or Login With Other Services
                 </div>
-                <button className="text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8">Login with Google</button>
+                <button className="text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8">
+                    <Image src={'/google_logo.png'} alt="Google Logo" width={32} height={32} className="mr-2" />
+                    Login with Google
+                </button>
             </form>
         </section>
     )
