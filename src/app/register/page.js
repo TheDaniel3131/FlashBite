@@ -19,7 +19,7 @@ export default function Register(){
                 <div className="text-center text-gray-500 text-sm my-4">
                     Or Login With Other Services
                 </div>
-                <button className="flex gap-2 text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8">
+                <button className="flex gap-2 text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8 justify-center">
                     <Image src={'/google_logo.png'} alt="Google Logo" width={20} height={20} className="mr-2" />
                     Login with Google
                 </button>
