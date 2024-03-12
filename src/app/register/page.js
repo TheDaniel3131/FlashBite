@@ -13,11 +13,11 @@ export default function Register(){
                     <h1 className="font-normal tracking-wider text-lg">Password: &nbsp;</h1>
                     <input type="password" placeholder="Enter Your Password" className="px-6 py-2"/>
                 </div>
-                <button type="submit" className="bg-slate-500 py-3 px-12 rounded-full font-bold text-slate-100 tracking-normal">Register Now</button>
-                <div className="text-center text-gray-500 my-4">
+                <button type="submit" className="bg-slate-500 py-3 px-14 rounded-full font-bold text-slate-100 text-lg tracking-normal">Register Now</button>
+                <div className="text-center text-gray-500 text-sm my-4">
                     Or Login With Other Services
                 </div>
-                <button className="text-slate-700 border border-slate-600 font-semibold rounded-full py-2 px-8">Login with Google</button>
+                <button className="text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8">Login with Google</button>
             </form>
         </section>
     )
