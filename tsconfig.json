@@ -5,6 +5,10 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -30,9 +34,5 @@
   ],
   "exclude": [
     "node_modules"
-  ],
-  "nextConfig": {
-    "output": "standalone",
-    "webpack": "(config, { isServer }) => {\n  config.resolve.alias['~'] = path.join(__dirname, 'src');\n  return config;\n}"
-  }
+  ]
 }
