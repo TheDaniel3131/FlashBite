@@ -1,4 +1,4 @@
-Flashbite is an under developing food ordering website. The project is created in Next.JS, React, Auth.js & MongoDB, written in JavaScript.
+Flashbite is an under developing food ordering website. The project is created in Next.JS, React, NextAuth.js & MongoDB, mostly written in JavaScript and some TypeScript languages.
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
