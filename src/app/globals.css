@@ -17,5 +17,6 @@ input[type="text"]{
 }
 
 button{
-    @apply block w-full text-gray-500;
+    @apply block w-full text-slate-500;
 }
+
