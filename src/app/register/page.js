@@ -5,6 +5,15 @@ export default function Register(){
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
+    function SubmitForm(e){
+        e.preventDefault();
+        fetch('/api/register', {
+            method: 'POST',
+            body: JSON.stringify({email, password}),
+            headers: {'Content-Type': 'application/json'},
+        });
+    }
+
     return(
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <div className="flex flex-col mb-10">
@@ -17,9 +26,10 @@ export default function Register(){
                     <input type="email" placeholder="Enter Your Email Address" value={email} 
                     onChange={e=> setEmail(e.target.value)} className="px-10 py-2"/>
                 </div>
-                <div className="flex items-center mb-10">
+                <div className="flex items-center mb-10" onSubmit={SubmitForm}>
                     <h1 className="font-normal tracking-wider text-lg">Password: &nbsp;</h1>
-                    <input type="password" placeholder="Enter Your Password" className="px-6 py-2"/>
+                    <input type="password" placeholder="Enter Your Password" value={password}
+                    onChange={e => setPassword(e.target.value)} className="px-6 py-2"/>
                 </div>
                 <button type="submit" className="bg-slate-500 py-3 px-14 mb-4 rounded-full font-bold text-slate-100 text-lg tracking-normal">Register Now</button>
                 <div className="text-center text-gray-500 text-sm my-4">
