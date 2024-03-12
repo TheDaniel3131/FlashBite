@@ -14,6 +14,10 @@ export default function Register(){
                     <input type="password" placeholder="Enter Your Password" className="px-6 py-2"/>
                 </div>
                 <button type="submit" className="bg-slate-500 py-3 px-12 rounded-full font-bold text-slate-100 tracking-normal">Register Now</button>
+                <div className="text-center text-gray-500 my-4">
+                    Or Login With Other Services
+                </div>
+                <button>Login with Google</button>
             </form>
         </section>
     )
