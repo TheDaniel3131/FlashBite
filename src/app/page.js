@@ -1,7 +1,5 @@
-import Header from "@/components/layout/header"
 import Hero from "@/components/layout/hero"
 import MainMenu from "@/components/layout/mainmenu"
-import Footer from "@/components/layout/footer";
 import ContactUs from "@/components/layout/contactus";
 import OurStory from "@/components/layout/ourstory";
 
