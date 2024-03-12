@@ -58,3 +58,7 @@ Both of these import statements will import the `header.js` file correctly. Howe
 It's important to note that the usage of `@/` is not a standard JavaScript feature, but rather a convention used in certain frameworks or project setups. If you are not using a specific project configuration that supports `@/`, it may not work as expected.
 
 I hope this clarifies the difference between `@/` and `./` in import statements! Let me know if you have any further questions.
+
+
+
+https://www.stickpng.com/ for more logo images in png
