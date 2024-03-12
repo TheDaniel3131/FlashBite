@@ -17,7 +17,7 @@ export default function Register(){
                 <div className="text-center text-gray-500 my-4">
                     Or Login With Other Services
                 </div>
-                <button>Login with Google</button>
+                <button className="text-slate-700 border border-slate-600 font-semibold rounded-full py-2 px-8">Login with Google</button>
             </form>
         </section>
     )
