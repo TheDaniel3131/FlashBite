@@ -66,3 +66,9 @@ https://www.stickpng.com/ for more logo images in png
 
 
 i love nextauth js: https://next-auth.js.org/configuration/initialization#api-routes-pages
+
+
+mongodb - https://cloud.mongodb.com/v2/65f14b809fc07c12beda6149#/clusters
+
+mongoose - https://mongoosejs.com/docs/
+
