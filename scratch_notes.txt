@@ -72,3 +72,9 @@ mongodb - https://cloud.mongodb.com/v2/65f14b809fc07c12beda6149#/clusters
 
 mongoose - https://mongoosejs.com/docs/
 
+
+I hate mongoose
+
+
+MONGO_URL="mongodb+srv://flashbite:KswbF4IHGDxPuPlJ@cluster0.xdryeiq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
