@@ -1,7 +1,21 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "include": ["."],
     "paths": {
-      "@/*": ["./src/*"]
+      // "@/*": ["./src/*"],
+      "@/app/*": ["src/app/*"],
+      "@/models/*": ["src/models/*"],
+      "@/components/*": ["src/components/*"]
     }
   }
 }
+
+
+//  "@/app/*": ["./src/app/*"]
+//  "@/models/*": ["./src/models/*"]
+//  "@/components/*": ["./src/components/*"]
+
+// "baseURL": ".",
+// "include": ["."]
+// 
