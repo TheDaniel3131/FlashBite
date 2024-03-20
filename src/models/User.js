@@ -21,12 +21,10 @@ const UserSchema = new Schema({
 
 UserSchema.post('validate', function(user){
     // user.password = 'hashed';
-    const notHashedPassword = new user.password;
+    const notHashedPassword = user.password;
     const salt = bcrypt.genSaltSync(10);
     user.password = bcrypt.hashSync(notHashedPassword, salt);
-
-
-    console.log({arguments});
+    // console.log({arguments});
 })
 
 // Not working because no document
