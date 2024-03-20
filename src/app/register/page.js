@@ -6,6 +6,7 @@ import { useState } from 'react';
 export default function Register() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [userCreated, setUserCreated] = useState(false);
 
     function manageSubmitForm(ev) {
         ev.preventDefault();
