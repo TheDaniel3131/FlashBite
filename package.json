@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "framer-motion": "^11.0.5",
     "lucide-react": "^0.354.0",
     "mongodb": "^6.5.0",

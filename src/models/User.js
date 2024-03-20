@@ -17,6 +17,12 @@ const UserSchema = new Schema({
     },
 }, {timestamps: true});
 
+
+UserSchema.post('validate', function(user){
+    user.password = 'hashed';
+    console.log({arguments});
+})
+
 // Not working because no document
 
 // UserSchema.pre('save', (next, ...rest) => {
