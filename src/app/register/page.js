@@ -30,19 +30,6 @@ export default function Register() {
         }
         setCreatingUser(false);      
         }
-
-        // fetch('/api/register', {
-        //     method: 'POST',
-        //     body: JSON.stringify({ email, password }),
-        //     headers: { 'Content-Type': 'application/json' },
-        // })
-        // .then(response => response.json())
-        // .then(data => {
-        //     console.log(data); 
-        // })
-        // .catch(error => {
-        //     console.error('Error:', error); 
-        // });
     
     return (
         <section className="flex flex-col items-center justify-between mt-5 py-10">
