@@ -20,7 +20,7 @@ export default function Register() {
             body: JSON.stringify({ email, password }),
             headers: { 'Content-Type': 'application/json'},
         });
-        
+
         // console.log(response);
         if (response.ok){
             setUserCreated(true);
@@ -48,7 +48,7 @@ export default function Register() {
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <div className="flex flex-col mb-10">
                 <h1 className="font-bold items-center text-center text-slate-800 text-4xl">Member Registration</h1>
-                {userCreated && <p className="text-green-500 text-center">User Created Successfully</p>}
+                {userCreated && <p className="text-green-500 text-center mt-5">Congratulation! Your User Account Has Created Successfully.</p>}
             </div>      
             {error && <p className="text-red-500 text-center">An Error Occurred, Try Again!</p>}
             <form className="flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full mx-auto max-w-xl" onSubmit={manageSubmitForm}>
