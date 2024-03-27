@@ -50,7 +50,7 @@ export default function Register() {
                 <h1 className="font-bold items-center text-center text-slate-800 text-4xl">Member Registration</h1>
                 {userCreated && <p className="text-green-500 text-center mt-5">Congratulation! Your User Account Has Created Successfully.</p>}
             </div>      
-            {error && <p className="text-red-500 text-center">An Error Occurred, Try Again!</p>}
+            {error && <p className="text-red-500 text-center">Your Email Has Been Created With Other User Account Before. Please Try Another One!</p>}
             <form className="flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full mx-auto max-w-xl" onSubmit={manageSubmitForm}>
                 <div className="flex items-center mb-6">
                     <h1 className="font-normal tracking-wider text-lg">Email: &nbsp;</h1>
