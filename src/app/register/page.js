@@ -13,11 +13,14 @@ export default function Register() {
     async function manageSubmitForm(ev) {
         ev.preventDefault();
         setCreatingUser(true);
-        fetch('/api/register', {
+        setError(false);
+        setUserCreated(false);
+        const response = await fetch('/api/register', {
             method: 'POST',
             body: JSON.stringify({ email, password }),
             headers: { 'Content-Type': 'application/json'},
         });
+        
         // console.log(response);
         if (response.ok){
             setUserCreated(true);
