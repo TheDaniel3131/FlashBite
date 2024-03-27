@@ -1,0 +1,13 @@
+
+        // fetch('/api/register', {
+        //     method: 'POST',
+        //     body: JSON.stringify({ email, password }),
+        //     headers: { 'Content-Type': 'application/json' },
+        // })
+        // .then(response => response.json())
+        // .then(data => {
+        //     console.log(data); 
+        // })
+        // .catch(error => {
+        //     console.error('Error:', error); 
+        // });
