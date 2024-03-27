@@ -13,19 +13,20 @@ export default function Register() {
     async function manageSubmitForm(ev) {
         ev.preventDefault();
         setCreatingUser(true);
-        try {
-            await fetch('/api/register', {
-                
-                method: 'POST',
-                body: JSON.stringify({ email, password }),
-                headers: { 'Content-Type': 'application/json'},
-            });     
-            setCreatingUser(false);
-            setUserCreated(true);            
-        } catch (ev) {
+        fetch('/api/register', {
+            method: 'POST',
+            body: JSON.stringify({ email, password }),
+            headers: { 'Content-Type': 'application/json'},
+        });
+        // console.log(response);
+        if (response.ok){
+            setUserCreated(true);
+        }
+        else {
             setError(true);
         }
-
+        setCreatingUser(false);      
+        }
 
         // fetch('/api/register', {
         //     method: 'POST',
@@ -39,8 +40,7 @@ export default function Register() {
         // .catch(error => {
         //     console.error('Error:', error); 
         // });
-    }
-
+    
     return (
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <div className="flex flex-col mb-10">
