@@ -35,7 +35,7 @@ export default function Register() {
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <div className="flex flex-col mb-10">
                 <h1 className="font-bold items-center text-center text-slate-800 text-4xl">Member Registration</h1>
-                {userCreated && <p className="text-green-500 text-center mb-8 py-2">Congratulation! Your User Account Has Created Successfully.</p>}
+                {userCreated && <p className="text-green-500 text-center mt-10">Congratulation! Your User Account Has Created Successfully.</p>}
             </div>      
             {error && <p className="text-red-500 text-center mb-8 py-2">Your Email Has Been Created With Other User Account Before. Please Try Another One!</p>}
             <form className="flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full mx-auto max-w-xl" onSubmit={manageSubmitForm}>
