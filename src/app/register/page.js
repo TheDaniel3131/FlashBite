@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Register() {
@@ -51,10 +52,13 @@ export default function Register() {
                 <div className="text-center text-gray-500 text-sm my-4">
                     Or Login With Other Services
                 </div>
-                <button className="flex gap-2 text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8 justify-center">
+                <button className="flex gap-2 text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8 justify-center my-4 mb-6">
                     <Image src={'/google_logo.png'} alt="Google Logo" width={20} height={20} className="mr-2" />
                     Login with Google
                 </button>
+                <div className="text-center my-2">
+                    Already have an account? Please Login <Link className="underline font-bold" href={'/login'}>Here</Link>
+                </div>
             </form>
         </section>
     );
