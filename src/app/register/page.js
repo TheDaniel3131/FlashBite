@@ -35,17 +35,17 @@ export default function Register() {
     return (
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <div className="flex flex-col mb-10">
-                <h1 className="font-bold items-center text-center text-slate-800 text-4xl">Member Registration</h1>
+                <h1 className="font-bold items-center text-center text-slate-800 text-5xl">Member Registration</h1>
                 {userCreated && <p className="text-green-500 text-center mt-10">Congratulation! Your User Account Has Created Successfully. Please Proceed to Login.</p>}
             </div>      
             {error && <p className="text-red-500 text-center mb-8 py-2">Your Email Has Been Created With Other User Account Before. Please Try Another One!</p>}
             <form className="flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full mx-auto max-w-xl" onSubmit={manageSubmitForm}>
                 <div className="flex items-center mb-6">
-                    <h1 className="font-normal tracking-wider text-lg">Email: &nbsp;</h1>
+                    <h1 className="font-semibold tracking-wider text-lg">Email: &nbsp;</h1>
                     <input type="email" placeholder="Enter Your Email Address" value={email} disabled={creatingUser} onChange={ev => setEmail(ev.target.value)} className="px-10 py-2"/>
                 </div>
                 <div className="flex items-center mb-10">
-                    <h1 className="font-normal tracking-wider text-lg">Password: &nbsp;</h1>
+                    <h1 className="font-semibold tracking-wider text-lg">Password: &nbsp;</h1>
                     <input type="password" placeholder="Enter Your Password" value={password} disabled={creatingUser} onChange={ev => setPassword(ev.target.value)} className="px-6 py-2"/>
                 </div>
                 <button type="submit" className="bg-slate-500 py-3 px-14 mb-4 rounded-full font-bold text-slate-100 text-lg tracking-normal">Register Now</button>
