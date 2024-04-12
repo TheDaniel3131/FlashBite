@@ -76,5 +76,10 @@ mongoose - https://mongoosejs.com/docs/
 I hate mongoose
 
 
-MONGO_URL="mongodb+srv://flashbite:KswbF4IHGDxPuPlJ@cluster0.xdryeiq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URL="mongodb+srv://flashbite:KswbF4IHGDxPuPlJ@cluster0.xdryeiq.mongodb.net/flashbite?retryWrites=true&w=majority&appName=Cluster0"
+
+MONGO_URL="mongodb+srv://flashbite:@cluster0.xdryeiq.mongodb.net/flashbite"
+
+
+MONGO_URL="mongodb://flashbite:KswbF4IHGDxPuPlJ@ac-nup1468-shard-00-00.xdryeiq.mongodb.net:27017/flashbite,ac-nup1468-shard-00-01.xdryeiq.mongodb.net:27017/flashbite,ac-nup1468-shard-00-02.xdryeiq.mongodb.net:27017/flashbite?ssl=true&replicaSet=atlas-11vybi-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
 
