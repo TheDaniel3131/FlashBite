@@ -16,7 +16,7 @@ export default function Login(){
             <form className="max-w-xs mx-auto py-10 mt-5">
                 <input type="email" placeholder="Enter Your Email Address" value={email} disabled={false} onChange={ev => setEmail(ev.target.value)} className="px-6 py-2"/>
                 <input type="password" placeholder="Enter Your Password" value={password} disabled={false} onChange={ev => setPassword(ev.target.value)} className="px-6 py-2"/>
-                <button type="submit">Login</button>
+                <button type="submit" className="bg-slate-500 py-3 px-14 mb-4 rounded-full font-bold text-slate-100 text-lg tracking-normal">Login</button>
             </form>
         </section>
 
