@@ -14,8 +14,14 @@ export default function Login(){
         <section className="flex flex-col items-center justify-between mt-5 py-10">
             <h1 className="font-bold items-center text-center text-slate-800 text-5xl">User Login</h1>
             <form className="max-w-xl mx-auto py-10 mt-5 flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full">
-                <input type="email" placeholder="Enter Your Email Address" value={email} disabled={false} onChange={ev => setEmail(ev.target.value)} className="px-6 py-2"/>
-                <input type="password" placeholder="Enter Your Password" value={password} disabled={false} onChange={ev => setPassword(ev.target.value)} className="px-6 py-2"/>
+                <div className="flex items-center mb-6">
+                    <h1 className="font-semibold tracking-wider text-lg">Email: &nbsp;</h1>
+                    <input type="email" placeholder="Enter Your Email Address" value={email} disabled={false} onChange={ev => setEmail(ev.target.value)} className="px-6 py-2"/>
+                </div>
+                <div className="flex items-center mb-10">
+                    <h1 className="font-semibold tracking-wider text-lg">Password: &nbsp;</h1>
+                    <input type="password" placeholder="Enter Your Password" value={password} disabled={false} onChange={ev => setPassword(ev.target.value)} className="px-6 py-2"/>
+                </div>
                 <button type="submit" className="bg-slate-500 py-3 px-14 mb-4 rounded-full font-bold text-slate-100 text-lg tracking-normal">Login</button>
             </form>
         </section>
