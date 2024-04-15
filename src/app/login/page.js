@@ -16,7 +16,7 @@ export default function Login(){
                 <h1 className="font-bold items-center text-center text-slate-800 text-5xl" >User Login</h1>
             </div>
             {/* flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full mx-auto max-w-xl */}
-            <form className="max-w-xl mx-auto p-20 flex flex-col text-center items-center bg-slate-100 p-20 rounded-3x w-full">
+            <form className="max-w-xl mx-auto p-20 flex flex-col text-center items-center bg-slate-100 rounded-3x w-full">
                 <div className="flex items-center mb-6">
                     <h1 className="font-semibold tracking-wider text-lg">Email: &nbsp;</h1>
                     <input type="email" placeholder="Enter Your Email Address" value={email} disabled={false} onChange={ev => setEmail(ev.target.value)} className="px-6 py-2"/>
