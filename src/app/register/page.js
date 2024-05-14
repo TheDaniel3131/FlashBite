@@ -54,7 +54,7 @@ export default function Register() {
                 </div>
                 <button className="flex gap-2 text-slate-700 border border-slate-600 font-semibold text-sm rounded-full py-2 px-8 justify-center my-4 mb-6">
                     <Image src={'/google_logo.png'} alt="Google Logo" width={20} height={20} className="mr-2" />
-                    Signup with Google
+                    Sign-Up with Google
                 </button>
                 <div className="text-center my-2">
                     Already have an account? Please Login <Link className="underline font-bold" href={'/login'}>Here</Link>
